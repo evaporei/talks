@@ -1,0 +1,3 @@
+Programação funcional é um paradigma que traz alguns benefícios bem
+interessantes, nessa talk é abordado o básico quanto ao assunto
+para quem nunca ouviu falar sobre.
