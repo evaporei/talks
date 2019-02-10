@@ -1,0 +1,67 @@
+export { default as theme } from './theme'
+
+import { Appear } from 'mdx-deck'
+/* import { Split } from 'mdx-deck/layouts' */
+
+
+# Perca o medo do LISP
+
+---
+
+# Como assim medo?
+
+---
+
+# Qual é o objetivo dessa talk?
+
+Ajudar a quem já programa em alguma linguagem, a ficar minimamente produtivo em LISP.
+
+<Appear>
+E de quebra, fazer quem tem medo de LISP, perder o medo :)
+</Appear>
+
+---
+
+# Disclaimer
+
+<Appear>
+<li>Os exemplos dessa talk serão em Clojure, que é o LISP mais bonito do pedaço</li>
+<li>Eu NÃO vou escrever/mostrar o código mais idiomático, expressivo e/ou sucinto que é possível se fazer na linguagem. Essa talk é para quem está iniciando :)</li>
+<li>Vou mapear os exemplos em Clojure para com código em JavaScript para comparar a algo que boa parte das pessoas entenda</li>
+</Appear>
+
+---
+
+# Ta, mas como eu leio isso?
+
+```clojure
+(defn say-hello
+         "Takes name argument and say hello to the name"
+         {:added "1.0"
+          :static true}
+         [name]
+         (println (str "Hello, " name)))
+```
+
+---
+
+```javascript
+function add (a, b) {
+  return a + b
+}
+
+add(2, 4)
+
+6
+```
+
+---
+
+```clojure
+(defn add [a b]
+  (+ a b))
+
+(add 2 4)
+
+6
+```
